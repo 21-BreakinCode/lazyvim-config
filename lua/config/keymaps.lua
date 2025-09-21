@@ -4,3 +4,5 @@
 
 vim.keymap.set("n", "<leader>k0", "zM", { desc = "Close all folds" })
 vim.keymap.set("n", "<leader>kj", "zR", { desc = "Open all folds" })
+
+vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = true, silent = true })
