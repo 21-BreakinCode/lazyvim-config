@@ -19,3 +19,17 @@ To restore your backup if needed:
 rm -rf ~/.config/nvim
 mv ~/.config/nvim.backup ~/.config/nvim
 ```
+
+## Check
+
+### Lazy git default dir
+
+```bash
+# create folder
+mkdir -p ~/.config/lazygit && touch ~/.config/lazygit/config.yml
+```
+
+```bash
+# into zshrc
+export XDG_CONFIG_HOME="$HOME/.config"
+```
