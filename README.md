@@ -3,14 +3,14 @@
 ## Fresh Installation
 
 ```bash
-git clone https://github.com/21-BreakinCode/nvim-config ~/.config/nvim
+git clone https://github.com/21-BreakinCode/lazyvim-config ~/.config/nvim
 ```
 
 ## Overwrite Existing Configuration
 
 ```bash
 mv ~/.config/nvim ~/.config/nvim.backup \
-    && git clone https://github.com/21-BreakinCode/nvim-config ~/.config/nvim
+    && git clone https://github.com/21-BreakinCode/lazyvim-config ~/.config/nvim
 ```
 
 To restore your backup if needed:
