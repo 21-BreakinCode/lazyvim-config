@@ -8,3 +8,5 @@ vim.opt.scrolloff = 10
 
 vim.opt.relativenumber = false
 vim.opt.shiftwidth = 4
+
+vim.opt.eol = true
