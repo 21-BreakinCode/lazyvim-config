@@ -2,6 +2,8 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
+vim.opt.winbar = "%=%m %f"
+
 vim.keymap.set("n", "<leader>k0", "zM", { desc = "Close all folds" })
 vim.keymap.set("n", "<leader>kj", "zR", { desc = "Open all folds" })
 
