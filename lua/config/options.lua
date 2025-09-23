@@ -10,6 +10,3 @@ vim.opt.relativenumber = false
 vim.opt.shiftwidth = 4
 
 vim.opt.eol = true
-
-vim.opt.spelllang = "en_us"
-vim.opt.spell = true
