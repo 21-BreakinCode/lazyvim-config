@@ -32,8 +32,15 @@ return {
             require("vscode").setup({
                 italic_comments = true,
                 transparent = true,
+                terminal_colors = true,
             })
             require("vscode").load()
         end,
+    },
+    {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "vscode",
+        },
     },
 }
