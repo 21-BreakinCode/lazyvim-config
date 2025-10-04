@@ -20,8 +20,8 @@ return {
         },
         picker = {
             sources = {
-                explorer = { ignored = true, hidden = true },
                 grep_buffers = { ignored = true, hidden = true },
+                -- explorer = { ignored = true, hidden = true },
                 -- files = { ignored = true, hidden = true },
                 -- grep = { ignored = true, hidden = true },
                 -- grep_word = { ignored = true, hidden = true },
