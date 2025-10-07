@@ -37,7 +37,8 @@
     "zipPlugin",
     "neodev",
     "neoconf",
-    "williamboman"
+    "williamboman",
+    "mise"
   ],
   "ignorePaths": [
     "**/example.lua",
